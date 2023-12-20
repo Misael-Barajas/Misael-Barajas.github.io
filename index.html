@@ -5,91 +5,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>My Portfolio</title>
+    <title>Misael Barajas</title>
+    <link rel="icon" href="./img/favicon.ico">
 </head>
 <body>
-    <header>
-        <a href="#home" class="logo">@MisaelDev</a>
+
+    <div class="container-h">
+        <header>
+            <a href="#home" class="logo">@MisaelDev</a>
         <div class="menubar">
             <i class="bx bx-menu" id="menu-icon"></i>
         </div>
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
+            <a class="active" href="#home">Home<i class='bx bxs-chevron-right'></i></a>
+            <a href="#about">About<i class='bx bxs-chevron-right'></i></a>
+            <a href="#projects">Projects<i class='bx bxs-chevron-right'></i></a>
+            <a href="#contact">Contact<i class='bx bxs-chevron-right'></i></a>
         </nav>
-    </header>
-    <section class="home" id="home">
-        <div class="container-left">
-            <h3>Hello, my name is</h3>
-            <h1>Misael Barajas</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae sed impedit nihil necessitatibus officiis fugit minima provident consectetur rerum velit. <br> Nobis exercitationem adipisci, officiis illo neque dolorum suscipit omnis facere?</p>
-            <div class="social-media">
-                <a href="#ig"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#tg"><i class='bx bxl-telegram' ></i></a>
-                <a href="#tw"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <a href="#" class="btn">Hire Me</a>
-        </div>
+        </header>
+    </div>
 
-        <div class="container-right">
-            <div class="home-img">
-                <div class="rhombus-img">
-                    <img src="./img/home.png" alt="">
+    <div class="container">
+        <section id="home">
+            <div class="profile-card">
+                <div class="profile-img">
+                    <div class="circle-img">
+                        <img src="./img/me.png" alt="">
+                    </div>
+                </div>
+                <div class="profile-cont">
+                    <div class="info">
+                        <h1>Misael Dev</h1>
+                        <h3>Front-end developer</h3>
+                    </div>
+                    <div class="social-media">
+                        <a target="_blank" href="https://github.com/Misael-Barajas">
+                            <i class='bx bxl-github'></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/misael-barajas/">
+                            <i class='bx bxl-linkedin-square'></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="experience">
+                <div class="experience-row">
+                    <div class="experience-col">
+                        <h3 class="title">Experience</h3>
     
-    <section class="about" id="about">
-        <div class="title-section">
-            <h1>About</h1>
-            <h1 class="colored">Me</h1>
-        </div>
-        <div class="container">
-            <div class="container-left">
-                <div class="about-card">
-                    <img src="./img/me.png" alt="">
+                        <div class="experience-box">
+                            <div class="experience-cont">
+                                <div class="content">
+                                    <div class="year gradient-text"><i class="bx bxs-calendar"></i>YY - YY</div>
+                                    <h3>Lorem ipsum</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti excepturi neque natus temporibus facere cumque amet rerum quis laudantium atque!</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+    
+                    </div>
+    
+                    <div class="experience-col">
+                        <h3 class="title">Education</h3>
+    
+                        <div class="experience-box">
+                            <div class="experience-cont">
+                                <div class="content">
+                                    <div class="year gradient-text"><i class="bx bxs-calendar"></i>2023 - 2028</div>
+                                    <h3>Lorem ipsum</h3>
+                                    <p class="x-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti excepturi neque natus temporibus facere cumque amet rerum quis laudantium atque!</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
                 </div>
             </div>
-            <div class="container-right">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo explicabo minima tenetur blanditiis cumque! Porro earum est beatae nobis esse maxime impedit, sint molestiae eaque modi accusantium optio unde voluptas? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nihil provident ipsa sed autem, ut fugiat! Sunt, nobis? Tempore asperiores molestias perferendis, fugit accusantium facilis rem blanditiis reprehenderit laborum labore!
-                </p>
+        </section>
+        
+        <section id="about">
+            <div class="title-section">
+                <h1>About</h1>
+                <h1 class="text-colored">Me</h1>
             </div>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <div class="title-section">
-            <h1>My</h1>
-            <h1 class="colored">Services</h1>
-        </div>
-        <div class="container">
-            
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <div class="title-section">
-            <h1>My</h1>
-            <h1 class="colored">Portfolio</h1>
-        </div>
-        <div class="container">
-            
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="title-section">
-            <h1>Contact</h1>
-            <h1 class="colored">Me</h1>
-        </div>
-        <div class="container">
-            
-        </div>
-    </section>
+        </section>
+    
+        <section id="projects">
+            <div class="title-section">
+                <h1>My</h1>
+                <h1 class="text-colored">Projects</h1>
+            </div>
+        </section>
+    
+        <section id="contact">
+            <div class="title-section">
+                <h1>Contact</h1>
+                <h1 class="text-colored">Me</h1>
+            </div>
+        </section>
+    </div>
 
     <script src="./script.js"></script>
 </body>
